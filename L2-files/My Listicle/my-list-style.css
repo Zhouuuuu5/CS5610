@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+hr {
+  color: dimgrey;
+  border: dotted 5px;
+  border-bottom: none;
+  width: 75%;
+  height: 1px;
+}
+
+.header {
+  position: relative;
+  padding: 0;
+}
+
+.header-img {
+  width: 100%;
+  min-width: 800px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.header-title {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.5);
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  margin: 50px 0;
+}
+
+.game {
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+}
+
+.game-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.text {
+  margin: 10px;
+  line-height: 2;
+}
+
+.copyright {
+  color: gray;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+@media (max‐width: 500px) {
+  article {
+    margin: 0 2px;
+  }
+}
